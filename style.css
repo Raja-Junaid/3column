@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.main-container {
+  margin: 116px 70px 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first {
+  padding: 50px 52px 70px 40px;
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-end-start-radius: 10px;
+}
+
+.fhead,
+.fpara {
+  margin: 28px 0 0 0px;
+}
+
+.fhead {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 40px;
+}
+
+.fpara {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.sbutton {
+  margin-top: 70px;
+  padding: 12px 33px;
+  font-weight: 600;
+  color: hsl(184, 100%, 22%);
+  background-color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+  border-radius: 30px;
+  letter-spacing: 0.5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.sbutton:hover {
+  background-color: hsl(184, 100%, 22%);
+  border: 1px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+
+.second {
+  padding: 50px 52px 70px 40px;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.fhead,
+.fpara {
+  margin: 28px 0 0 0px;
+}
+
+.fhead {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 40px;
+}
+
+.fpara {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.tbutton {
+  margin-top: 70px;
+  padding: 12px 33px;
+  font-weight: 600;
+  color: hsl(179, 100%, 13%);
+  background-color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+  border-radius: 30px;
+  letter-spacing: 0.5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.tbutton:hover {
+  background-color: hsl(179, 100%, 13%);
+  border: 1px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+
+.third {
+  padding: 50px 52px 70px 40px;
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-end-end-radius: 10px;
+}
+
+.fhead,
+.fpara {
+  margin: 28px 0 0 0px;
+}
+
+.fhead {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 40px;
+}
+
+.fpara {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.fbutton {
+  margin-top: 70px;
+  padding: 12px 33px;
+  font-weight: 600;
+  color: hsl(31, 77%, 52%);
+  background-color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+  border-radius: 30px;
+  letter-spacing: 0.5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.fbutton:hover {
+  background-color: hsl(31, 77%, 52%);
+  border: 1px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+
+@media screen and (max-width: 370px) {
+  .main-container {
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+}
